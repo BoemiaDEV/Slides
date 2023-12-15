@@ -11,17 +11,19 @@ ul {
 img {
     display: block;
     max-width: 100%;
-    margin: 0 20px;
+}
 
+.slide-wrapper {
+    overflow: hidden;
+}
+
+.slide {
+    display: flex;
 }
 
 .slide li {
-    display: flex;
+    flex-shrink: 0;
     width: 80vw;
     max-width: 800px;
-    flex-shrink: 0;
-}
-
-.wrapper{
-    overflow: hidden;
+    margin: 0 20px;
 }
